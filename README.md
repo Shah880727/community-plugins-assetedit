@@ -1,7 +1,8 @@
 # Asset editor
 
-This is a tool for editing asset descriptor files (ie for example .mhmat or .mhclo files). 
+This is pre-alpha code for a plugin for editing asset descriptor files (ie for example .mhmat or .mhclo files). 
 
-(Better description to be written)
+It should not be used other than for academic curiosity atm. 
+
 
 
