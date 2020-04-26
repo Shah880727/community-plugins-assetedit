@@ -26,7 +26,7 @@ import mh
 import gui
 import log
 
-from asseteditor import AssetEditorTaskView
+from .asseteditor import AssetEditorTaskView
 
 category = None
 
