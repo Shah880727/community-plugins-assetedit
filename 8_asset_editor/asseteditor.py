@@ -27,14 +27,15 @@ import gui
 import os
 import filecache
 import copy
-from pathfunctions import *
+from .pathfunctions import *
 from core import G
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 
-import uuid4 as uuid
+from . import uuid4 as uuid
 
-from bestpractice import getBestPractice
+from .bestpractice import getBestPractice
 
 
 mhapi = gui3d.app.mhapi
@@ -83,7 +84,7 @@ class AssetEditorTaskView(gui3d.TaskView, filecache.MetadataCacher):
         self.strip = None
         self.resetAsset = None
 
-       # self.assetFolder = [mhapi.locations.getSystemDataPath('clothes'), mhapi.locations.getUserDataPath('clothes')]
+        # self.assetFolder = [mhapi.locations.getSystemDataPath('clothes'), mhapi.locations.getUserDataPath('clothes')]
         self.assetFolder = [mhapi.locations.getUserDataPath('clothes')]
         self.extensions = "mhclo"
 
